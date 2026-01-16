@@ -25,8 +25,7 @@ latest_posts:
 ---
 
 
-I am a Research Scientist in <a rel="external nofollow" href="https://ai.meta.com/research/ranking-and-recommendations/
-" target="_blank">Ranking AI Research (RAIR)</a> team at Meta. 
+I am a Research Scientist in <a rel="external nofollow" href="https://ai.meta.com/research/ranking-and-recommendations/" target="_blank">Ranking AI Research (RAIR)</a> team at Meta. 
 
 Prior to RAIR, I worked in Signals Matching - Identity Modeling team where I focused on foundation model development using Mixture-of-Experts (MoE), Multi-Task Multi-Label (MTML), and Two-Tower Sparse Network (TTSN).
 
