@@ -1,6 +1,32 @@
 ---
 ---
 
+@article{raisinghani2024integration,
+  title={Integration of a randomized sequence scanning approach in AlphaFold2 and local frustration profiling of conformational states enable interpretable atomistic characterization of conformational ensembles and detection of hidden allosteric states in the ABL1 protein kinase},
+  author={Raisinghani, Nishank and Alshahrani, Mohammed and Gupta, Grace and Tian, Hao and Xiao, Sian and Tao, Peng and Verkhivker, Gennady M},
+  journal={Journal of chemical theory and computation},
+  volume={20},
+  number={12},
+  pages={5317--5336},
+  year={2024},
+  publisher={ACS Publications},
+  abstract={Despite the success of AlphaFold methods in predicting single protein structures, these methods showed intrinsic limitations in the characterization of multiple functional conformations of allosteric proteins. The recent NMR-based structural determination of the unbound ABL kinase in the active state and discovery of the inactive low-populated functional conformations that are unique for ABL kinase present an ideal challenge for the AlphaFold2 approaches. In the current study, we employ several adaptations of the AlphaFold2 methodology to predict protein conformational ensembles and allosteric states of the ABL kinase including randomized alanine sequence scanning combined with the multiple sequence alignment subsampling proposed in this study. We show that the proposed new AlphaFold2 adaptation combined with local frustration profiling of conformational states enables accurate prediction of the protein kinase structures and conformational ensembles, also offering a robust approach for interpretable characterization of the AlphaFold2 predictions and detection of hidden allosteric states. We found that the large high frustration residue clusters are uniquely characteristic of the low-populated, fully inactive ABL form and can define energetically frustrated cracking sites of conformational transitions, presenting difficult targets for AlphaFold2. The results of this study uncovered previously unappreciated fundamental connections between local frustration profiles of the functional allosteric states and the ability of AlphaFold2 methods to predict protein structural ensembles of the active and inactive states. This study showed that integration of the randomized sequence scanning adaptation of AlphaFold2 with a robust landscape-based analysis allows for interpretable atomistic predictions and characterization of protein conformational ensembles, providing a physical basis for the successes and limitations of current AlphaFold2 methods in detecting functional allosteric states that play a significant role in protein kinase regulation.},
+  html={https://pubs.acs.org/doi/abs/10.1021/acs.jctc.4c00222}
+}
+
+@article{ketkar2023benchmark,
+  title={A benchmark study of graph models for molecular acute toxicity prediction},
+  author={Ketkar, Rajas and Liu, Yue and Wang, Hengji and Tian, Hao},
+  journal={International Journal of Molecular Sciences},
+  volume={24},
+  number={15},
+  pages={11966},
+  year={2023},
+  publisher={MDPI},
+  abstract={With the wide usage of organic compounds, the assessment of their acute toxicity has drawn great attention to reduce animal testing and human labor. The development of graph models provides new opportunities for acute toxicity prediction. In this study, five graph models (message-passing neural network, graph convolution network, graph attention network, path-augmented graph transformer network, and Attentive FP) were applied on four toxicity tasks (fish, Daphnia magna, Tetrahymena pyriformis, and Vibrio fischeri). With the lowest prediction error, Attentive FP was reported to have the best performance in all four tasks. Moreover, the attention weights of the Attentive FP model helped to construct atomic heatmaps and provide good explainability.},
+  html={https://www.mdpi.com/1422-0067/24/15/11966}
+}
+
 @article{tian2023passer,
   title={PASSer: fast and accurate prediction of protein allosteric sites},
   author={Tian, Hao and Xiao, Sian and Jiang, Xi and Tao, Peng},
@@ -10,10 +36,74 @@
   pages={W427--W431},
   year={2023},
   publisher={Oxford University Press},
-  selected={true},
+  selected={false},
   abbr={NAR},
   abstract={Allostery refers to the biological process by which an effector modulator binds to a protein at a site distant from the active site, known as allosteric site. Identifying allosteric sites is essential for discovering allosteric process and is considered a critical factor in allosteric drug development. To facilitate related research, we developed PASSer (Protein Allosteric Sites Server) at https://passer.smu.edu, a web application for fast and accurate allosteric site prediction and visualization. The website hosts three trained and published machine learning models: (i) an ensemble learning model with extreme gradient boosting and graph convolutional neural network, (ii) an automated machine learning model with AutoGluon and (iii) a learning-to-rank model with LambdaMART. PASSer accepts protein entries directly from the Protein Data Bank (PDB) or user-uploaded PDB files, and can conduct predictions within seconds. The results are presented in an interactive window that displays protein and pockets’ structures, as well as a table that summarizes predictions of the top three pockets with the highest probabilities/scores. To date, PASSer has been visited over 49 000 times in over 70 countries and has executed over 6 200 jobs.},
   html={https://academic.oup.com/nar/article/51/W1/W427/7145694},
+}
+
+@article{xiao2023assessments,
+  title={Assessments of Variational Autoencoder in Protein Conformation Exploration},
+  author={Xiao, Sian and Song, Zilin and Tian, Hao and Tao, Peng},
+  journal={Journal of computational biophysics and chemistry},
+  volume={22},
+  number={04},
+  pages={489--501},
+  year={2023},
+  publisher={World Scientific},
+  abstract={Molecular dynamics (MD) simulations have been extensively used to study protein dynamics and subsequently functions. However, MD simulations are often insufficient to explore adequate conformational space for protein functions within reachable timescales. Accordingly, many enhanced sampling methods, including variational autoencoder (VAE) based methods, have been developed to address this issue. The purpose of this study is to evaluate the feasibility of using VAE to assist in the exploration of protein conformational landscapes. Using three modeling systems, we showed that VAE could capture high-level hidden information which distinguishes protein conformations. These models could also be used to generate new physically plausible protein conformations for direct sampling in favorable conformational spaces. We also found that VAE worked better in interpolation than extrapolation and increasing latent space dimension could lead to a trade-off between performances and complexities.},
+  html={https://www.worldscientific.com/doi/abs/10.1142/S2737416523500217}
+}
+
+@article{li2023analyzing,
+  title={Analyzing and predicting the viscosity of polymer nanocomposites in the conditions of temperature, shear rate, and nanoparticle loading with molecular dynamics simulations and machine learning},
+  author={Li, Haoxiang and Tian, Hao and Chen, Yewei and Xiao, Sian and Zhao, Xiuying and Gao, Yangyang and Zhang, Liqun},
+  journal={The Journal of Physical Chemistry B},
+  volume={127},
+  number={15},
+  pages={3596--3605},
+  year={2023},
+  publisher={ACS Publications},
+  abstract={Predicting the viscosity (η) of polymer nanocomposites (PNCs) is of critical importance as it governs a dominant role in PNCs’ processing and application. Machine-learning (ML) algorithms, enabled by pre-existing experimental and computational data, have emerged as robust tools for the prediction of quantitative relationships between feature parameters and various physical properties of materials. In this work, we employed nonequilibrium molecular dynamics (NEMD) simulation with ML models to systematically investigate the η of PNCs over a wide range of nanoparticle (NP) loadings (φ), shear rates (γ̇), and temperatures (T). With the increase in γ̇, shear thinning takes place as the value of η decreases on the orders of magnitude. In addition, the φ dependence and T dependence reduce to the extent that it is not visible at high γ̇. The value of η for PNCs is proportional to φ and inversely proportional to T below the intermediate γ̇. Using the obtained NEMD results, four machine-learning models were trained to provide effective predictions for the η. The extreme gradient boosting (XGBoost) model yields the best accuracy in η prediction under complex conditions and is further used to evaluate feature importance. This quantitative structure–property relationship (QSPR) model used physical views to investigate the effect of process parameters, such as T, φ, and γ̇, on the η of PNCs and paves the path for theoretically proposing reasonable parameters for successful processing.},
+  html={https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.3c01697}
+}
+
+@article{tian2023passerrank,
+  title={PASSerRank: Prediction of allosteric sites with learning to rank},
+  author={Tian, Hao and Xiao, Sian and Jiang, Xi and Tao, Peng},
+  journal={Journal of computational chemistry},
+  volume={44},
+  number={28},
+  pages={2223--2229},
+  year={2023},
+  publisher={Wiley Online Library},
+  abstract={Allostery plays a crucial role in regulating protein activity, making it a highly sought-after target in drug development. One of the major challenges in allosteric drug research is the identification of allosteric sites. In recent years, many computational models have been developed for accurate allosteric site prediction. Most of these models focus on designing a general rule that can be applied to pockets of proteins from various families. In this study, we present a new approach using the concept of Learning to Rank (LTR). The LTR model ranks pockets based on their relevance to allosteric sites, that is, how well a pocket meets the characteristics of known allosteric sites. After the training and validation on two datasets, the Allosteric Database (ASD) and CASBench, the LTR model was able to rank an allosteric pocket in the top three positions for 83.6% and 80.5% of test proteins, respectively. The model outperforms other common machine learning models with higher F1 scores (0.662 in ASD and 0.608 in CASBench) and Matthews correlation coefficients (0.645 in ASD and 0.589 in CASBench). The trained model is available on the PASSer platform (https://passer.smu.edu) to aid in drug discovery research.},
+  html={https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.27193}
+}
+
+@article{yin2023unveiling,
+  title={Unveiling the structural features that regulate carbapenem deacylation in KPC-2 through QM/MM and interpretable machine learning},
+  author={Yin, Chao and Song, Zilin and Tian, Hao and Palzkill, Timothy and Tao, Peng},
+  journal={Physical Chemistry Chemical Physics},
+  volume={25},
+  number={2},
+  pages={1349--1362},
+  year={2023},
+  publisher={Royal Society of Chemistry},
+  abstract={Resistance to carbapenem β-lactams presents major clinical and economical challenges for the treatment of pathogen infections. The fast hydrolysis of carbapenems by carbapenemase-producing bacterial strains enables the effective deactivation of carbapenem antibiotics. In this study, we aim to unravel the structural features that distinguish the notable deacylation activity of carbapenemases. The deacylation reactions between imipenem (IPM) and the KPC-2 class A serine-based β-lactamases (ASβLs) are modeled with combined quantum mechanical/molecular mechanical (QM/MM) minimum energy pathway (MEP) calculations and interpretable machine-learning (ML) methods. We first applied a dual-level computational protocol to achieve fast sampling of QM/MM MEPs. A tree-based ensemble ML model was employed to learn the MEP activation barriers from the conformational features of the KPC-2/IPM active site. The barrier-predicting model was then unboxed using the Shapley additive explanation (SHAP) importance attribution methods to derive mechanistic insights, which were also verified by additional QM/MM wavefunction analysis. Essentially, we show that potential hydrogen bonding interactions of the general base and the tautomerization states of the carbapenem pyrroline ring could concertedly regulate the activation barrier of KPC-2/IPM deacylation. Nonetheless, we demonstrate the efficacy of interpretable ML to assist the analysis of QM/MM simulation data for robust extraction of human-interpretable mechanistic insights.},
+  html={https://pubs.rsc.org/en/content/articlelanding/2022/cp/d2cp03724f}
+}
+
+@article{krishnan2022probing,
+  title={Probing conformational landscapes and mechanisms of allosteric communication in the functional states of the ABL kinase domain using multiscale simulations and network-based mutational profiling of allosteric residue potentials},
+  author={Krishnan, Keerthi and Tian, Hao and Tao, Peng and Verkhivker, Gennady M},
+  journal={The Journal of Chemical Physics},
+  volume={157},
+  number={24},
+  year={2022},
+  publisher={AIP Publishing},
+  abstract={In the current study, multiscale simulation approaches and dynamic network methods are employed to examine the dynamic and energetic details of conformational landscapes and allosteric interactions in the ABL kinase domain that determine the kinase functions. Using a plethora of synergistic computational approaches, we elucidate how conformational transitions between the active and inactive ABL states can employ allosteric regulatory switches to modulate intramolecular communication networks between the ATP site, the substrate binding region, and the allosteric binding pocket. A perturbation-based network approach that implements mutational profiling of allosteric residue propensities and communications in the ABL states is proposed. Consistent with biophysical experiments, the results reveal functionally significant shifts of the allosteric interaction networks in which preferential communication paths between the ATP binding site and substrate regions in the active ABL state become suppressed in the closed inactive ABL form, which in turn features favorable allosteric coupling between the ATP site and the allosteric binding pocket. By integrating the results of atomistic simulations with dimensionality reduction methods and Markov state models, we analyze the mechanistic role of macrostates and characterize kinetic transitions between the ABL conformational states. Using network-based mutational scanning of allosteric residue propensities, this study provides a comprehensive computational analysis of long-range communications in the ABL kinase domain and identifies conserved regulatory hotspots that modulate kinase activity and allosteric crosstalk between the allosteric pocket, ATP binding site, and substrate binding regions.},
+  html={https://pubs.aip.org/aip/jcp/article-abstract/157/24/245101/2843026/Probing-conformational-landscapes-and-mechanisms}
 }
 
 @article{tian2022admetboost,
@@ -25,7 +115,6 @@
   pages={408},
   year={2022},
   publisher={Springer},
-  selected={true},
   abbr={JMM},
   abstract={The absorption, distribution, metabolism, excretion, and toxicity (ADMET) properties are important in drug discovery as they define efficacy and safety. In this work, we applied an ensemble of features, including fingerprints and descriptors, and a tree-based machine learning model, extreme gradient boosting, for accurate ADMET prediction. Our model performs well in the Therapeutics Data Commons ADMET benchmark group. For 22 tasks, our model is ranked first in 18 tasks and top 3 in 21 tasks. The trained machine learning models are integrated in ADMETboost, a web server that is publicly available at https://ai-druglab.smu.edu/admet.},
   html={https://link.springer.com/article/10.1007/s00894-022-05373-8}
@@ -41,11 +130,48 @@
   year={2022},
   publisher={ACS Publications},
   selected={true},
-  abbr={JCIM},
-  abstract={Molecular dynamics (MD) simulation is widely used to study protein conformations and dynamics. However, conventional simulation suffers from being trapped in some local energy minima that are hard to escape. Thus, most of the computational time is spent sampling in the already visited regions. This leads to an inefficient sampling process and further hinders the exploration of protein movements in affordable simulation time. The advancement of deep learning provides new opportunities for protein sampling. Variational autoencoders are a class of deep learning models to learn a low-dimensional representation (referred to as the latent space) that can capture the key features of the input data. Based on this characteristic, we proposed a new adaptive sampling method, latent space-assisted adaptive sampling for protein trajectories (LAST), to accelerate the exploration of protein conformational space. This method comprises cycles of (i) variational autoencoder training, (ii) seed structure selection on the latent space, and (iii) conformational sampling through additional MD simulations. The proposed approach is validated through the sampling of four structures of two protein systems: two metastable states of Escherichia coli adenosine kinase (ADK) and two native states of Vivid (VVD). In all four conformations, seed structures were shown to lie on the boundary of conformation distributions. Moreover, large conformational changes were observed in a shorter simulation time when compared with structural dissimilarity sampling (SDS) and conventional MD (cMD) simulations in both systems. In metastable ADK simulations, LAST explored two transition paths toward two stable states, while SDS explored only one and cMD neither. In VVD light state simulations, LAST was three times faster than cMD simulation with a similar conformational space. Overall, LAST is comparable to SDS and is a promising tool in adaptive sampling. The LAST method is publicly available at https://github.com/smu-tao-group/LAST to facilitate related research.},
-  html={https://pubs.acs.org/doi/abs/10.1021/acs.jcim.2c01213}
+  abstract={Molecular dynamics (MD) simulation is widely used to study protein conformations and dynamics. However, conventional simulation suffers from being trapped in some local energy minima that are hard to escape. Thus, most computational time is spent sampling in the already visited regions. This leads to an inefficient sampling process and further hinders the exploration of protein movements in affordable simulation time. The advancement of deep learning provides new opportunities for protein sampling. Variational autoencoders are a class of deep learning models to learn a low-dimensional representation (referred to as the latent space) that can capture the key features of the input data. Based on this characteristic, we proposed a new adaptive sampling method, latent space assisted adaptive sampling for protein trajectories (LAST), to accelerate the exploration of protein conformational space. This method comprises cycles of (i) variational autoencoders training, (ii) seed structure selection on the latent space and (iii) conformational sampling through additional MD simulations. The proposed approach is validated through the sampling of four structures of two protein systems: two metastable states of E. Coli adenosine kinase (ADK) and two native states of Vivid (VVD). In all four conformations, seed structures were shown to lie on the boundary of conformation distributions. Moreover, large conformational changes were observed in a shorter simulation time when compared with conventional MD (cMD) simulations in both systems. In metastable ADK simulations, LAST explored two transition paths toward two stable states while cMD became trapped in an energy basin. In VVD light state simulations, LAST was three times faster than cMD simulation with a similar conformational space.},
+  html={https://openreview.net/forum?id=oAmIeVMECNB},
+  note={Note: Accepted in ICML 2022 Workshop AI4Science}
 }
 
+@article{xiao2022passer2,
+  title={PASSer2. 0: accurate prediction of protein allosteric sites through automated machine learning},
+  author={Xiao, Sian and Tian, Hao and Tao, Peng},
+  journal={Frontiers in molecular biosciences},
+  volume={9},
+  pages={879251},
+  year={2022},
+  publisher={Frontiers Media SA},
+  abstract={Allostery is a fundamental process in regulating protein activities. The discovery, design, and development of allosteric drugs demand better identification of allosteric sites. Several computational methods have been developed previously to predict allosteric sites using static pocket features and protein dynamics. Here, we define a baseline model for allosteric site prediction and present a computational model using automated machine learning. Our model, PASSer2.0, advanced the previous results and performed well across multiple indicators with 82.7% of allosteric pockets appearing among the top three positions. The trained machine learning model has been integrated with the Protein Allosteric Sites Server (PASSer) to facilitate allosteric drug discovery.},
+  html={https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2022.879251/full}
+}
+
+@article{song2022mechanistic,
+  title={Mechanistic insights into enzyme catalysis from explaining machine-learned quantum mechanical and molecular mechanical minimum energy pathways},
+  author={Song, Zilin and Trozzi, Francesco and Tian, Hao and Yin, Chao and Tao, Peng},
+  journal={ACS Physical Chemistry Au},
+  volume={2},
+  number={4},
+  pages={316--330},
+  year={2022},
+  publisher={ACS Publications},
+  abstract={With the increasing popularity of machine learning (ML) applications, the demand for explainable artificial intelligence techniques to explain ML models developed for computational chemistry has also emerged. In this study, we present the development of the Boltzmann-weighted cumulative integrated gradients (BCIG) approach for effective explanation of mechanistic insights into ML models trained on high-level quantum mechanical and molecular mechanical (QM/MM) minimum energy pathways. Using the acylation reactions of the Toho-1 β-lactamase and two antibiotics (ampicillin and cefalexin) as the model systems, we show that the BCIG approach could quantitatively attribute the energetic contribution in one system and the relative reactivity of individual steps across different systems to specific chemical processes such as the bond making/breaking and proton transfers. The proposed BCIG contribution attribution method quantifies chemistry-interpretable insights in terms of contributions from each elementary chemical process, which is in agreement with the validating QM/MM calculations and our intuitive mechanistic understandings of the model reactions.},
+  html={https://pubs.acs.org/doi/full/10.1021/acsphyschemau.2c00005}
+}
+
+@article{tian2021deciphering,
+  title={Deciphering the protein motion of S1 subunit in SARS-CoV-2 spike glycoprotein through integrated computational methods},
+  author={Tian, Hao and Tao, Peng},
+  journal={Journal of Biomolecular Structure and Dynamics},
+  volume={39},
+  number={17},
+  pages={6705--6712},
+  year={2021},
+  publisher={Taylor \& Francis},
+  abstract={The novel severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a major worldwide public health emergency that has infected over 8 million people. Spike glycoprotein, especially the partially open state of S1 subunit, in SARS-CoV-2 is considered vital for its infection with human host cell. However, the mechanism elucidating the transition from the closed state to the partially open state still remains unclear. In this study, we applied a series of computational methods, including Markov state model, transition path theory and random forest to analyze the S1 motion. Our results showed a promising complete conformational movement of the receptor-binding domain, from buried, partially open, to detached states. We also estimated the transition probability among these states. Based on the asymmetry in both the dynamics behavior and the accumulated alpha carbon (Cα) importance, we further suggested a relation among chains in the trimer spike protein, which leads to a deeper understanding on protein motions of the S1 subunit.},
+  html={https://www.tandfonline.com/doi/abs/10.1080/07391102.2020.1802338}
+}
 
 @article{tian2021explore,
   title={Explore protein conformational space with variational autoencoder},
@@ -58,7 +184,8 @@
   selected={true},
   abbr={Frontiers},
   abstract={Molecular dynamics (MD) simulations have been actively used in the study of protein structure and function. However, extensive sampling in the protein conformational space requires large computational resources and takes a prohibitive amount of time. In this study, we demonstrated that variational autoencoders (VAEs), a type of deep learning model, can be employed to explore the conformational space of a protein through MD simulations. VAEs are shown to be superior to autoencoders (AEs) through a benchmark study, with low deviation between the training and decoded conformations. Moreover, we show that the learned latent space in the VAE can be used to generate unsampled protein conformations. Additional simulations starting from these generated conformations accelerated the sampling process and explored hidden spaces in the conformational landscape.},
-  html={https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2021.781635/full}
+  html={https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2021.781635/full},
+  note={Note: Chemical Computing Group Excellence Award for Graduate Students, American Chemical Society, Computers In Chemistry Division, Spring 2022}
 }
 
 
@@ -71,9 +198,47 @@
   pages={035015},
   year={2021},
   publisher={IOP Publishing},
-  selected={false},
+  selected={true},
   abbr={MLST},
   abstract={Allostery is considered important in regulating protein's activity. Drug development depends on the understanding of allosteric mechanisms, especially the identification of allosteric sites, which is a prerequisite in drug discovery and design. Many computational methods have been developed for allosteric site prediction using pocket features and protein dynamics. Here, we present an ensemble learning method, consisting of eXtreme gradient boosting and graph convolutional neural network, to predict allosteric sites. Our model can learn physical properties and topology without any prior information, and shows good performance under multiple indicators. Prediction results showed that 84.9% of allosteric pockets in the test set appeared in the top 3 positions. The PASSer: Protein Allosteric Sites Server (https://passer. smu. edu), along with a command line interface (https://github. com/smutaogroup/passerCLI) provide insights for further analysis in drug discovery.},
   html={https://link.springer.com/article/10.1007/s00894-022-05373-8},
 }
 
+@article{song2020unraveling,
+  title={Unraveling the energetic significance of chemical events in enzyme catalysis via machine-learning based regression approach},
+  author={Song, Zilin and Zhou, Hongyu and Tian, Hao and Wang, Xinlei and Tao, Peng},
+  journal={Communications Chemistry},
+  volume={3},
+  number={1},
+  pages={134},
+  year={2020},
+  publisher={Nature Publishing Group UK London},
+  abstract={The bacterial enzyme class of β-lactamases are involved in benzylpenicillin acylation reactions, which are currently being revisited using hybrid quantum mechanical molecular mechanical (QM/MM) chain-of-states pathway optimizations. Minimum energy pathways are sampled by reoptimizing pathway geometry under different representative protein environments obtained through constrained molecular dynamics simulations. Predictive potential energy surface models in the reaction space are trained with machine-learning regression techniques. Herein, using TEM-1/benzylpenicillin acylation reaction as the model system, we introduce two model-independent criteria for delineating the energetic contributions and correlations in the predicted reaction space. Both methods are demonstrated to effectively quantify the energetic contribution of each chemical process and identify the rate limiting step of enzymatic reaction with high degrees of freedom. The consistency of the current workflow is tested under seven levels of quantum chemistry theory and three non-linear machine-learning regression models. The proposed approaches are validated to provide qualitative compliance with experimental mutagenesis studies.},
+  html={https://idp.nature.com/authorize?response_type=cookie&client_id=grover&redirect_uri=https%3A%2F%2Fwww.nature.com%2Farticles%2Fs42004-020-00379-w}
+}
+
+@article{tian2020deciphering,
+  title={Deciphering the allosteric process of the Phaeodactylum tricornutum Aureochrome 1a LOV domain},
+  author={Tian, Hao and Trozzi, Francesco and Zoltowski, Brian D and Tao, Peng},
+  journal={The Journal of Physical Chemistry B},
+  volume={124},
+  number={41},
+  pages={8960--8972},
+  year={2020},
+  publisher={ACS Publications},
+  abstract={The conformational-driven allosteric protein diatom Phaeodactylum tricornutum aureochrome 1a (PtAu1a) differs from other light–oxygen–voltage (LOV) proteins for its uncommon structural topology. The mechanism of signaling transduction in the PtAu1a LOV domain (AuLOV) including flanking helices remains unclear because of this dissimilarity, which hinders the study of PtAu1a as an optogenetic tool. To clarify this mechanism, we employed a combination of tree-based machine learning models, Markov state models, machine-learning-based community analysis, and transition path theory to quantitatively analyze the allosteric process. Our results are in good agreement with the reported experimental findings and reveal a previously overlooked Cα helix and protein linkers as important in promoting the protein conformational changes. This integrated approach can be considered as a general workflow and applied on other allosteric proteins to provide detailed information about their allosteric mechanisms.},
+  html={https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.0c05842}
+}
+
+@article{tian2020ivis,
+  title={ivis dimensionality reduction framework for biomacromolecular simulations},
+  author={Tian, Hao and Tao, Peng},
+  journal={Journal of chemical information and modeling},
+  volume={60},
+  number={10},
+  pages={4569--4581},
+  year={2020},
+  publisher={ACS Publications},
+  abstract={Molecular dynamics (MD) simulations have been widely applied to study macromolecules including proteins. However, the high dimensionality of the data sets produced by simulations makes thorough analysis difficult and further hinders a deeper understanding of biomacromolecules. To gain more insights into the protein structure–function relations, appropriate dimensionality reduction methods are needed to project simulations onto low-dimensional spaces. Linear dimensionality reduction methods, such as principal component analysis (PCA) and time–structure-based independent component analysis (t-ICA), could not preserve sufficient structural information. Though better than linear methods, nonlinear methods, such as t-distributed stochastic neighbor embedding (t-SNE), still suffer from the limitations in avoiding system noise and keeping inter-cluster relations. ivis is a novel deep learning-based dimensionality reduction method originally developed for single-cell data sets. Here, we applied this framework for the study of light, oxygen, and voltage (LOV) domains of diatom Phaeodactylum tricornutum aureochrome 1a (PtAu1a). Compared with other methods, ivis is shown to be superior in constructing a Markov state model (MSM), preserving information of both local and global distances, and maintaining similarity between high and low dimensions with the least information loss. Moreover, the ivis framework is capable of providing new perspectives for deciphering residue-level protein allostery through the feature weights in the neural network. Overall, ivis is a promising member of the analysis toolbox for proteins.},
+  html={https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00485}
+}
